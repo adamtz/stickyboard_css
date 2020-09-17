@@ -1,0 +1,214 @@
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+.winning a{
+	color: green
+}
+.losing a{
+	color: #7a0101
+}
+.both a{
+	color: #CCCC00
+}
+.trades a{
+	color: #FF4500;
+	text-align: center;
+}
+#main{
+	margin: auto;
+	text-align: center;
+}
+a {
+  color: blue;
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+table {  
+    color: #333; /* Lighten up font color */
+    font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+	font-size: 14px;
+    border-collapse: collapse; 
+	border-spacing: 0; 
+}
+
+td { border: 1px solid #CCC; 
+	 height: 30px; 
+} /* Make cells a bit taller */
+
+th {  
+    background: #d9d9d9; /* Light grey background */
+    font-weight: bold; /* Make sure they're bold */
+}
+
+thead th {
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+thead th.up {
+    padding-right: 20px;
+    background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+}
+
+thead th.down {
+    padding-right: 20px;
+    background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+}
+
+td {  
+    background: #FAFAFA; /* Lighter grey background */
+    text-align: center; /* Center our text */
+}
+
+h1 {
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ font-size: 48px;
+ line-height: 40px;
+ letter-spacing: -1px;
+ color: #444;
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+ font-weight: 100;
+}
+
+h3{
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ font-size: 28px;
+ line-height: 40px;
+ letter-spacing: -1px;color: #444;
+ 
+}
+
+h4 {
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ font-size: 22px;
+ line-height: 40px;
+ letter-spacing: -1px;
+ color: #444;
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+ font-weight: 100;
+}
+ 
+ p {
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ font-size: 14px;
+ line-height: 20px;
+ color: #444;
+ 
+ }
+ 
+ #myInput {
+    font-size: 18px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    word-wrap:break-word;
+    border-collapse: collapse; /* Collapse borders */
+    width: 75%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#myTable p{
+    font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+.button {
+    background-color: #3333ff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	cursor: pointer;
+}
+		.collapsible {
+			background-color: #777;
+			color: white;
+  			cursor: pointer;
+  			padding: 8px;
+  			width: 100%;
+  			border: none;
+  			text-align: center;
+  			outline: none;
+  			font-size: 15px;
+		}
+			
+		.active, .collapsible:hover {
+ 			 background-color: #555;
+		}
+		
+		.collapsible:after {
+  			content: '\002B';
+  			color: white;
+  			font-weight: bold;
+  			float: right;
+  			margin-left: 5px;
+		}
+		
+		.active:after {
+  			content: "\2212";
+		}
+		
+		.content {
+  			padding: 0 18px;
+  			max-height: 0;
+  			overflow: hidden;
+  			transition: max-height 0.2s ease-out;
+  			
+		}
+#standings_table td{
+	padding: 2px
+}
+ 
